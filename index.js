@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   },
   titleBox: {
     flex:1,
-    marginLeft:15,
+    paddingLeft:15,
     flexDirection:'row'
   },
   titleText: {
