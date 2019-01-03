@@ -183,7 +183,7 @@ class SettingsList extends React.Component {
           {item.icon}
           {item.isAuth ?
             <View style={item.titleBoxStyle ? item.titleBoxStyle : [styles.titleBox, border]}>
-              <View style={{paddingLeft:5,flexDirection:'column',flex:1}}>
+              <View style={{flexDirection:'column',flex:1}}>
                 <View style={{borderBottomWidth:1,borderColor:this.props.borderColor}}>
                   <TextInput
                     ref="UserNameInputBlock"
